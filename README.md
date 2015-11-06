@@ -1,13 +1,10 @@
 # tainqi
 
 [![NPM version](https://img.shields.io/npm/v/tianqi.svg?style=flat)](https://npmjs.org/package/tianqi)
-[![Build Status](https://img.shields.io/travis/afc163/tianqi.svg?style=flat)](https://travis-ci.org/afc163/tianqi)
-[![David Status](https://img.shields.io/david/afc163/tianqi.svg?style=flat)](https://david-dm.org/afc163/tianqi)
-[![NPM downloads](http://img.shields.io/npm/dm/tianqi.svg?style=flat)](https://npmjs.org/package/tianqi)
 
 A weather tool in your command line.
 
-![](https://t.alipayobjects.com/images/T1h_JfXkXhXXXXXXXX.png)
+![](http://www.smallyard.cn/img/tianqi.jpg)
 
 ---
 
