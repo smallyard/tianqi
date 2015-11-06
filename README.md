@@ -2,7 +2,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/tianqi.svg?style=flat)](https://npmjs.org/package/tianqi)
 
-A weather tool in your command line.
+A weather tool in your command line. 
 
 ![](http://www.smallyard.cn/img/tianqi.jpg)
 
