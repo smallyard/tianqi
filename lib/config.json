@@ -1,0 +1,5 @@
+{
+  "city": "http://apistore.baidu.com/microservice/cityinfo?cityname=",
+  "weather": "http://apis.baidu.com/apistore/weatherservice/recentweathers?cityid=",
+  "apikey": "7328474baf90532437b4becdc5f65706"
+}

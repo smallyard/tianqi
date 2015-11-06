@@ -1,0 +1,27 @@
+{
+  "name": "tianqi",
+  "version": "0.0.1",
+  "description": "A weather tool in your command line",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:liuhongqiang/tianqi.git"
+  },
+  "author": "liuhongqiang <liuhongqiang@live.cn>",
+  "license": "MIT",
+  "bin": {
+    "tianqi": "./bin/tianqi"
+  },
+  "keywords": [
+    "weather",
+    "tianqi"
+  ],
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "colorful": "^2.1.0",
+    "request": "^2.36.0"
+  }
+}
