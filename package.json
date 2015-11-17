@@ -1,6 +1,6 @@
 {
   "name": "tianqi",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "A weather tool in your command line",
   "main": "index.js",
   "repository": {
