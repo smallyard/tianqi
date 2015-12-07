@@ -16,13 +16,13 @@ $ npm install tianqi -g
 
 ## Usage
 
-#### Query local weather
+#### 1. Query local weather
 
 ```bash
-$ tianqi 北京
+$ tianqi
 ```
 
-#### Query weather by city name
+#### 2. Query weather by city name
 
 ```bash
 $ tianqi 北京
