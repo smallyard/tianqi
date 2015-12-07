@@ -20,6 +20,10 @@ $ npm install tianqi -g
 $ tianqi 北京
 ```
 
+```bash
+$ tianqi #get local weather
+```
+
 ```
  今天天气 小雪  当前温度 2℃  最低温度 2℃  最高温度 4℃  风力 微风级
 
