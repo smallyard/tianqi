@@ -11,7 +11,7 @@ A weather tool in your command line.
 ## Install
 
 ```bash
-$ npm install tianqi -g
+$ npm install tianqi -g 
 ```
 
 ## Usage
