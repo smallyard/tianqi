@@ -25,6 +25,7 @@ module.exports = function (word) {
 };
 
 function getDataByCityName(word){
+    word = encodeURIComponent(word);
     request.get(config.cityURL + word, function (error, response, body) {
         if (!error && response.statusCode == 200) {
             var cityResult = JSON.parse(body);
