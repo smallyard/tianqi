@@ -4,7 +4,7 @@
 
 A weather tool in your command line. 
 
-![](http://images.cnblogs.com/cnblogs_com/smallyard/756689/o_QQ%e6%88%aa%e5%9b%be20151212153234.jpg)
+![](http://images.cnblogs.com/cnblogs_com/smallyard/756689/o_1.jpg)
 
 ---
 
