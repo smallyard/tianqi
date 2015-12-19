@@ -19,7 +19,6 @@ module.exports = function (word) {
             });
         });
     } else {
-        word = encodeURIComponent(word);
         getDataByCityName(word);
     }
 };
