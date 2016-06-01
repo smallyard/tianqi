@@ -3,14 +3,15 @@ var config = require("./lib/config");
 var print = require("./lib/print");
 
 module.exports = function (word) {
-    if(!word){
-        // get ip
-        request.get(config.ipURL, function (error, response, body) {
+    if (word) {
+        getDataByCityName(word);
+    } else {
+        request.get(config.ip.url, function (error, response, body) {
             var ipResult = JSON.parse(body);
             var options = {
-                url: config.ipToCityNameURL + ipResult.ip,
+                url: config.ipToCity.url + ipResult.ip,
                 headers: {
-                    "apikey": config.ipToCityNameApiKey
+                    "apikey": config.ipToCity.key
                 }
             };
             request.get(options, function (error, response, body) {
@@ -18,31 +19,20 @@ module.exports = function (word) {
                 getDataByCityName(cityNameResult.retData.city);
             });
         });
-    } else {
-        getDataByCityName(word);
     }
 };
 
-function getDataByCityName(word){
+function getDataByCityName(word) {
     word = encodeURIComponent(word);
-    request.get(config.cityURL + word, function (error, response, body) {
+    var options = {
+        url: config.weather.url + word,
+        headers: {
+            "apikey": config.weather.key
+        }
+    };
+    request.get(options, function (error, response, body) {
         if (!error && response.statusCode == 200) {
-            var cityResult = JSON.parse(body);
-            if (cityResult.errNum == 0) {
-                var options = {
-                    url: config.weatherURL + cityResult.retData.cityCode,
-                    headers: {
-                        "apikey": config.weatherApikey
-                    }
-                };
-                request.get(options, function (error, response, body) {
-                    if (!error && response.statusCode == 200) {
-                        print.print(JSON.parse(body));
-                    }
-                });
-            } else {
-                console.log(cityResult.retMsg.red);
-            }
+            print.print(JSON.parse(body));
         }
     });
 }

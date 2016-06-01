@@ -1,8 +1,13 @@
 {
-  "ipURL": "http://whois.pconline.com.cn/ipJson.jsp?json=true",
-  "ipToCityNameURL": "http://apis.baidu.com/apistore/iplookupservice/iplookup?ip=",
-  "ipToCityNameApiKey":"7328474baf90532437b4becdc5f65706",
-  "cityURL": "http://apistore.baidu.com/microservice/cityinfo?cityname=",
-  "weatherURL": "http://apis.baidu.com/apistore/weatherservice/recentweathers?cityid=",
-  "weatherApikey": "7328474baf90532437b4becdc5f65706"
+  "ip": {
+    "url": "http://whois.pconline.com.cn/ipJson.jsp?json=true"
+  },
+  "ipToCity": {
+    "url": "http://apis.baidu.com/apistore/iplookupservice/iplookup?ip=",
+    "key": "7328474baf90532437b4becdc5f65706"
+  },
+  "weather": {
+    "url": "http://apis.baidu.com/apistore/weatherservice/recentweathers?cityname=",
+    "key": "7328474baf90532437b4becdc5f65706"
+  }
 }
