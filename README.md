@@ -1,9 +1,7 @@
 # tainqi
 
 [![NPM version](https://img.shields.io/npm/v/tianqi.svg?style=flat)](https://npmjs.org/package/tianqi)
-[![build status](https://travis-ci.org/hax/babel-plugin-transform-function-sent.svg?branch=master)](https://travis-ci.org/hax/babel-plugin-transform-function-sent)
-[![dependencies](https://david-dm.org/hax/babel-plugin-transform-function-sent.svg)](https://david-dm.org/hax/babel-plugin-transform-function-sent)
-[![devDependencies](https://img.shields.io/david/dev/hax/babel-plugin-transform-function-sent.svg)](https://david-dm.org/hax/babel-plugin-transform-function-sent#info=devDependencies)
+[![Build Status](https://travis-ci.org/smallyard/tianqi.svg?branch=master)](https://travis-ci.org/smallyard/tianqi)
 
 A weather tool in your command line. 
 
