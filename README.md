@@ -1,6 +1,7 @@
 # tainqi
 
 [![NPM version](https://img.shields.io/npm/v/tianqi.svg?style=flat)](https://npmjs.org/package/tianqi)
+[![Build Status](https://travis-ci.org/smallyard/tianqi.svg?branch=master)](https://travis-ci.org/smallyard/tianqi)
 
 A weather tool in your command line. 
 
