@@ -1,20 +1,1 @@
-#!/usr/bin/env node
-
-require("colorful").toxic();
-
-var package = require("../package");
-
-var param = process.argv[2];
-
-if (process.argv.length != 3 || (param && param.toUpperCase() == "-H")) {
-	console.log('tianqi ~ ' + package.version.green);
-    console.log(package.description.grey);
-    console.log("  $ ".cyan + "tianqi 北京");
-    console.log("  $ ".cyan + "tianqi 上海");
-    return;
-}
-
-console.log();
-
-var tianqi = require('../src/index');
-tianqi(param);
+#!/usr/bin/env noderequire("colorful").toxic();var package = require("../package");var param = process.argv[2];if (process.argv.length != 3 || (param && param.toUpperCase() == "-H")) {	console.log('tianqi ~ ' + package.version.green);    console.log(package.description.grey);    console.log("  $ ".cyan + "tianqi 北京");    console.log("  $ ".cyan + "tianqi 上海");    return;}var tianqi = require('../src/index');tianqi(param);
