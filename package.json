@@ -1,13 +1,12 @@
 {
   "name": "tianqi",
-  "version": "1.3.0",
+  "version": "1.3.4",
   "description": "A weather tool in your command line",
-  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:liuhongqiang/tianqi.git"
+    "url": "git@github.com:smallyard/tianqi.git"
   },
-  "author": "liuhongqiang <liuhongqiang@live.cn>",
+  "author": "smallyard <liuhongqiang@live.cn>",
   "license": "MIT",
   "bin": {
     "tianqi": "./bin/tianqi"
