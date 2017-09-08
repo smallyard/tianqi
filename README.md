@@ -28,4 +28,5 @@ $ tianqi
 
 ```bash
 $ tianqi 北京
+
 ```
