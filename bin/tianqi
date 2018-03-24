@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-require("colorful").toxic();
+require('colors');
 var package = require("../package");
 var param = process.argv[2];
 if (process.argv.length > 3 || (param && param.toUpperCase() == "-H")) {
