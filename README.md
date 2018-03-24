@@ -6,7 +6,7 @@
 
 A weather tool in your command line. 
 
-![](http://images.cnblogs.com/cnblogs_com/smallyard/756689/o_1.jpg)
+![](http://images.cnblogs.com/cnblogs_com/smallyard/1185266/o_tianqi.jpg)
 
 ---
 
@@ -28,5 +28,4 @@ $ tianqi
 
 ```bash
 $ tianqi 北京
-
 ```
