@@ -32,7 +32,7 @@ $ tianqi 北京
 $ tianqi beijing
 ```
 
-### 3. Help
+#### 3. Help
 
 ```bash
 $ tianqi -h
