@@ -28,4 +28,21 @@ $ tianqi
 
 ```bash
 $ tianqi 北京
+# or
+$ tianqi beijing
+```
+
+### 3. Help
+
+```bash
+$ tianqi -h
+# or
+$ tianqi --help
+```
+
+```bash
+#A weather tool in your command line.
+#  $ tianqi		查询当地天气
+#  $ tianqi 北京		查询北京天气
+#  $ tianqi beijing	查询北京天气
 ```

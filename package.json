@@ -1,7 +1,7 @@
 {
   "name": "tianqi",
-  "version": "1.5.1",
-  "description": "A weather tool in your command line",
+  "version": "1.5.2",
+  "description": "A weather tool in your command line.",
   "repository": {
     "type": "git",
     "url": "git@github.com:smallyard/tianqi.git"
