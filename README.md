@@ -1,4 +1,4 @@
-# tainqi
+# tianqi
 
 [![NPM version](https://img.shields.io/npm/v/tianqi.svg?style=flat)](https://npmjs.org/package/tianqi)
 [![Build Status](https://travis-ci.org/smallyard/tianqi.svg?branch=master)](https://travis-ci.org/smallyard/tianqi)
@@ -13,7 +13,7 @@ A weather tool in your command line.
 ## Install
 
 ```bash
-$ npm install tianqi -g 
+$ npm i -g tianqi
 ```
 
 ## Usage
@@ -40,9 +40,9 @@ $ tianqi -h
 $ tianqi --help
 ```
 
-```bash
-#A weather tool in your command line.
-#  $ tianqi		查询当地天气
-#  $ tianqi 北京		查询北京天气
-#  $ tianqi beijing	查询北京天气
+```
+A weather tool in your command line.
+  $ tianqi		查询当地天气
+  $ tianqi 北京		查询北京天气
+  $ tianqi beijing	查询北京天气
 ```
