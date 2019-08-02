@@ -1,6 +1,6 @@
 {
   "name": "tianqi",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "description": "A weather tool in your command line.",
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
     "colors": "1.2.1",
     "crypto": "0.0.3",
     "request-promise": "^2.0.1"
+  },
+  "scripts": {
+    "tianqi": "node ./bin/tianqi"
   }
 }
